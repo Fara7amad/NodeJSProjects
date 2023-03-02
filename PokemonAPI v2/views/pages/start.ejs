@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+  
+</head>
+<body class="container">
+
+<header >
+  <%- include('../partials/header'); %>
+</header>
+
+<main >
+  <style> 
+    body {
+      background-image: url("https://wallpaperaccess.com/full/20996.jpg");
+      background-color: #cccccc;
+    }
+    </style>
+  <div class="jumbotron" style="background-color: rgba(255, 255, 255, 0.623);  text-align: center; ">
+    <h1>POKEMON</h1>
+    <h4>Welcome to pokemon API</h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pAngi8HPUew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>In order to seek a pokemon details, please enter the name of it: </h3>
+    <form action="/" method="post">
+      <h4>Name of pokemon: </h4> <input type="text" name="poke_name">
+     <button type="submit">Search!</button>
+    </form>
+  </div>
+</main>
+
+</body>
+</html>
